@@ -15,3 +15,28 @@ Modificar Estado: Permite alternar el estado de un Pokémon (ej. marcarlo como "
 Liberar Pokémon: Elimina un registro de la lista (ideal para cuando decides dejar ir a ese Rattata de nivel 2).
 
 Consultar Datos: Envía mensajes de registro (logs) con la lista completa de Pokémon en formato legible.
+
+🛠️ Estructura de Datos
+El programa utiliza dos estructuras principales para optimizar el espacio en la cuenta:
+
+1. Pokedex (Cuenta de Usuario)
+Es la cuenta principal que vive en la blockchain.
+
+owner: La llave pública del entrenador.
+
+nombre_entrenador: Nombre personalizado (máx. 60 caracteres).
+
+pokemones: Un vector (lista) que almacena hasta 20 criaturas.
+
+2. Pokemon (Struct Interno)
+Los atributos que definen a cada criatura:
+
+nombre (String)
+
+numero_pokedex (u16)
+
+tipo (String)
+
+nivel (u8)
+
+atrapado (Boolean)
