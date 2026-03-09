@@ -5,6 +5,7 @@ Este es un programa on-chain desarrollado con Anchor Framework que permite a los
 El contrato inteligente (Smart Contract) permite gestionar una base de datos persistente de Pokémon vinculada a la billetera (Wallet) del usuario mediante PDAs (Program Derived Addresses).
 
 Funcionalidades principales:
+
 Iniciar Pokédex: Crea una cuenta única para el entrenador utilizando su Pubkey como semilla.
 
 Registrar Pokémon: Guarda un nuevo Pokémon con datos específicos: nombre, número de Pokédex, tipo, nivel y estado de captura.
